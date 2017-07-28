@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E2C180E1F2992C300E482C2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2C180C1F298E9900E482C2 /* VideoToolbox.framework */; };
+		6E8D34811F25A34C00E1F00F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D34801F25A34C00E1F00F /* main.m */; };
+		6E8D34841F25A34C00E1F00F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D34831F25A34C00E1F00F /* AppDelegate.m */; };
+		6E8D34871F25A34C00E1F00F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D34861F25A34C00E1F00F /* ViewController.m */; };
+		6E8D348A1F25A34C00E1F00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D34881F25A34C00E1F00F /* Main.storyboard */; };
+		6E8D348C1F25A34C00E1F00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D348B1F25A34C00E1F00F /* Assets.xcassets */; };
+		6E8D348F1F25A34C00E1F00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D348D1F25A34C00E1F00F /* LaunchScreen.storyboard */; };
+		6E8D349A1F25A34C00E1F00F /* HeFanStreamSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D34991F25A34C00E1F00F /* HeFanStreamSDKDemoTests.m */; };
+		6E8D34A51F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D34A41F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.m */; };
+		6E8D357C1F25FC4900E1F00F /* libHeFanStreamSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D357B1F25FC4900E1F00F /* libHeFanStreamSDK.a */; };
+		6E8D35C61F26DF9400E1F00F /* SENSEME.lic in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D35C21F26DF9400E1F00F /* SENSEME.lic */; };
+		6E8D35C71F26DF9400E1F00F /* SENSEME_old.lic in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D35C31F26DF9400E1F00F /* SENSEME_old.lic */; };
+		6E8D35C81F26DF9400E1F00F /* action3.4.0.model in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D35C51F26DF9400E1F00F /* action3.4.0.model */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8D34961F25A34C00E1F00F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8D34741F25A34B00E1F00F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8D347B1F25A34C00E1F00F;
+			remoteInfo = HeFanStreamSDKDemo;
+		};
+		6E8D34A11F25A34C00E1F00F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8D34741F25A34B00E1F00F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8D347B1F25A34C00E1F00F;
+			remoteInfo = HeFanStreamSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E2C180C1F298E9900E482C2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6E2C180F1F29B25300E482C2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6E2C18111F29B25A00E482C2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6E8D347C1F25A34C00E1F00F /* HeFanStreamSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeFanStreamSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8D34801F25A34C00E1F00F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E8D34821F25A34C00E1F00F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E8D34831F25A34C00E1F00F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E8D34851F25A34C00E1F00F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E8D34861F25A34C00E1F00F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E8D34891F25A34C00E1F00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E8D348B1F25A34C00E1F00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8D348E1F25A34C00E1F00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E8D34901F25A34C00E1F00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8D34951F25A34C00E1F00F /* HeFanStreamSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeFanStreamSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8D34991F25A34C00E1F00F /* HeFanStreamSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeFanStreamSDKDemoTests.m; sourceTree = "<group>"; };
+		6E8D349B1F25A34C00E1F00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8D34A01F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeFanStreamSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8D34A41F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeFanStreamSDKDemoUITests.m; sourceTree = "<group>"; };
+		6E8D34A61F25A34C00E1F00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8D34C81F25A51E00E1F00F /* libHeFanStreamSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHeFanStreamSDK.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/HeFanStreamSDK-gzotbcpwnpvjtmhksqfayutxbqgp/Build/Products/Debug-iphoneos/libHeFanStreamSDK.a"; sourceTree = "<group>"; };
+		6E8D34CF1F25E60F00E1F00F /* HeFanStreamSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeFanStreamSDK.h; path = ../../../../../../../../../Documents/hefan/code/hefanSDK/HeFanStreamSDK/HeFanStreamSDK/HeFanStreamSDK/HeFanStreamSDK.h; sourceTree = "<group>"; };
+		6E8D357B1F25FC4900E1F00F /* libHeFanStreamSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHeFanStreamSDK.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/HeFanStreamSDK-gzotbcpwnpvjtmhksqfayutxbqgp/Build/Products/Debug-iphoneos/libHeFanStreamSDK.a"; sourceTree = "<group>"; };
+		6E8D35C21F26DF9400E1F00F /* SENSEME.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SENSEME.lic; sourceTree = "<group>"; };
+		6E8D35C31F26DF9400E1F00F /* SENSEME_old.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SENSEME_old.lic; sourceTree = "<group>"; };
+		6E8D35C51F26DF9400E1F00F /* action3.4.0.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = action3.4.0.model; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8D34791F25A34C00E1F00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8D357C1F25FC4900E1F00F /* libHeFanStreamSDK.a in Frameworks */,
+				6E2C180E1F2992C300E482C2 /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8D34921F25A34C00E1F00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8D349D1F25A34C00E1F00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8D34731F25A34B00E1F00F = {
+			isa = PBXGroup;
+			children = (
+				6E8D35C01F26DF9400E1F00F /* Resources */,
+				6E8D357B1F25FC4900E1F00F /* libHeFanStreamSDK.a */,
+				6E8D34CC1F25A8DF00E1F00F /* include */,
+				6E8D347E1F25A34C00E1F00F /* HeFanStreamSDKDemo */,
+				6E8D34981F25A34C00E1F00F /* HeFanStreamSDKDemoTests */,
+				6E8D34A31F25A34C00E1F00F /* HeFanStreamSDKDemoUITests */,
+				6E8D347D1F25A34C00E1F00F /* Products */,
+				6E8D34C71F25A51E00E1F00F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8D347D1F25A34C00E1F00F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D347C1F25A34C00E1F00F /* HeFanStreamSDKDemo.app */,
+				6E8D34951F25A34C00E1F00F /* HeFanStreamSDKDemoTests.xctest */,
+				6E8D34A01F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8D347E1F25A34C00E1F00F /* HeFanStreamSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D34821F25A34C00E1F00F /* AppDelegate.h */,
+				6E8D34831F25A34C00E1F00F /* AppDelegate.m */,
+				6E8D34851F25A34C00E1F00F /* ViewController.h */,
+				6E8D34861F25A34C00E1F00F /* ViewController.m */,
+				6E8D34881F25A34C00E1F00F /* Main.storyboard */,
+				6E8D348B1F25A34C00E1F00F /* Assets.xcassets */,
+				6E8D348D1F25A34C00E1F00F /* LaunchScreen.storyboard */,
+				6E8D34901F25A34C00E1F00F /* Info.plist */,
+				6E8D347F1F25A34C00E1F00F /* Supporting Files */,
+			);
+			path = HeFanStreamSDKDemo;
+			sourceTree = "<group>";
+		};
+		6E8D347F1F25A34C00E1F00F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D34801F25A34C00E1F00F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E8D34981F25A34C00E1F00F /* HeFanStreamSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D34991F25A34C00E1F00F /* HeFanStreamSDKDemoTests.m */,
+				6E8D349B1F25A34C00E1F00F /* Info.plist */,
+			);
+			path = HeFanStreamSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		6E8D34A31F25A34C00E1F00F /* HeFanStreamSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D34A41F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.m */,
+				6E8D34A61F25A34C00E1F00F /* Info.plist */,
+			);
+			path = HeFanStreamSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+		6E8D34C71F25A51E00E1F00F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2C18111F29B25A00E482C2 /* CoreMedia.framework */,
+				6E2C180F1F29B25300E482C2 /* CoreVideo.framework */,
+				6E2C180C1F298E9900E482C2 /* VideoToolbox.framework */,
+				6E8D34C81F25A51E00E1F00F /* libHeFanStreamSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E8D34CC1F25A8DF00E1F00F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D34CF1F25E60F00E1F00F /* HeFanStreamSDK.h */,
+				6E8D34CD1F25A8DF00E1F00F /* HeFanStreamSDK */,
+			);
+			name = include;
+			path = "../../../../../../Library/Developer/Xcode/DerivedData/HeFanStreamSDK-gzotbcpwnpvjtmhksqfayutxbqgp/Build/Products/Debug-iphoneos/include";
+			sourceTree = "<group>";
+		};
+		6E8D34CD1F25A8DF00E1F00F /* HeFanStreamSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HeFanStreamSDK;
+			sourceTree = "<group>";
+		};
+		6E8D35C01F26DF9400E1F00F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D35C11F26DF9400E1F00F /* license */,
+				6E8D35C41F26DF9400E1F00F /* models */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E8D35C11F26DF9400E1F00F /* license */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D35C21F26DF9400E1F00F /* SENSEME.lic */,
+				6E8D35C31F26DF9400E1F00F /* SENSEME_old.lic */,
+			);
+			path = license;
+			sourceTree = "<group>";
+		};
+		6E8D35C41F26DF9400E1F00F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D35C51F26DF9400E1F00F /* action3.4.0.model */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8D347B1F25A34C00E1F00F /* HeFanStreamSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8D34A91F25A34C00E1F00F /* Build configuration list for PBXNativeTarget "HeFanStreamSDKDemo" */;
+			buildPhases = (
+				6E8D34781F25A34C00E1F00F /* Sources */,
+				6E8D34791F25A34C00E1F00F /* Frameworks */,
+				6E8D347A1F25A34C00E1F00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeFanStreamSDKDemo;
+			productName = HeFanStreamSDKDemo;
+			productReference = 6E8D347C1F25A34C00E1F00F /* HeFanStreamSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8D34941F25A34C00E1F00F /* HeFanStreamSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8D34AC1F25A34C00E1F00F /* Build configuration list for PBXNativeTarget "HeFanStreamSDKDemoTests" */;
+			buildPhases = (
+				6E8D34911F25A34C00E1F00F /* Sources */,
+				6E8D34921F25A34C00E1F00F /* Frameworks */,
+				6E8D34931F25A34C00E1F00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8D34971F25A34C00E1F00F /* PBXTargetDependency */,
+			);
+			name = HeFanStreamSDKDemoTests;
+			productName = HeFanStreamSDKDemoTests;
+			productReference = 6E8D34951F25A34C00E1F00F /* HeFanStreamSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E8D349F1F25A34C00E1F00F /* HeFanStreamSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8D34AF1F25A34C00E1F00F /* Build configuration list for PBXNativeTarget "HeFanStreamSDKDemoUITests" */;
+			buildPhases = (
+				6E8D349C1F25A34C00E1F00F /* Sources */,
+				6E8D349D1F25A34C00E1F00F /* Frameworks */,
+				6E8D349E1F25A34C00E1F00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8D34A21F25A34C00E1F00F /* PBXTargetDependency */,
+			);
+			name = HeFanStreamSDKDemoUITests;
+			productName = HeFanStreamSDKDemoUITests;
+			productReference = 6E8D34A01F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E8D34741F25A34B00E1F00F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王利军";
+				TargetAttributes = {
+					6E8D347B1F25A34C00E1F00F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 44N96SVFP8;
+						ProvisioningStyle = Automatic;
+					};
+					6E8D34941F25A34C00E1F00F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 44N96SVFP8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E8D347B1F25A34C00E1F00F;
+					};
+					6E8D349F1F25A34C00E1F00F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 44N96SVFP8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E8D347B1F25A34C00E1F00F;
+					};
+				};
+			};
+			buildConfigurationList = 6E8D34771F25A34B00E1F00F /* Build configuration list for PBXProject "HeFanStreamSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E8D34731F25A34B00E1F00F;
+			productRefGroup = 6E8D347D1F25A34C00E1F00F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8D347B1F25A34C00E1F00F /* HeFanStreamSDKDemo */,
+				6E8D34941F25A34C00E1F00F /* HeFanStreamSDKDemoTests */,
+				6E8D349F1F25A34C00E1F00F /* HeFanStreamSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8D347A1F25A34C00E1F00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8D348F1F25A34C00E1F00F /* LaunchScreen.storyboard in Resources */,
+				6E8D35C81F26DF9400E1F00F /* action3.4.0.model in Resources */,
+				6E8D35C61F26DF9400E1F00F /* SENSEME.lic in Resources */,
+				6E8D348C1F25A34C00E1F00F /* Assets.xcassets in Resources */,
+				6E8D35C71F26DF9400E1F00F /* SENSEME_old.lic in Resources */,
+				6E8D348A1F25A34C00E1F00F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8D34931F25A34C00E1F00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8D349E1F25A34C00E1F00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8D34781F25A34C00E1F00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8D34871F25A34C00E1F00F /* ViewController.m in Sources */,
+				6E8D34841F25A34C00E1F00F /* AppDelegate.m in Sources */,
+				6E8D34811F25A34C00E1F00F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8D34911F25A34C00E1F00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8D349A1F25A34C00E1F00F /* HeFanStreamSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8D349C1F25A34C00E1F00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8D34A51F25A34C00E1F00F /* HeFanStreamSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8D34971F25A34C00E1F00F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8D347B1F25A34C00E1F00F /* HeFanStreamSDKDemo */;
+			targetProxy = 6E8D34961F25A34C00E1F00F /* PBXContainerItemProxy */;
+		};
+		6E8D34A21F25A34C00E1F00F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8D347B1F25A34C00E1F00F /* HeFanStreamSDKDemo */;
+			targetProxy = 6E8D34A11F25A34C00E1F00F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E8D34881F25A34C00E1F00F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8D34891F25A34C00E1F00F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E8D348D1F25A34C00E1F00F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8D348E1F25A34C00E1F00F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E8D34A71F25A34C00E1F00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E8D34A81F25A34C00E1F00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8D34AA1F25A34C00E1F00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44N96SVFP8;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HeFanStreamSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lsqlite3",
+					"-ObjC",
+					"-liconv",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wlj.HeFanStreamSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E8D34AB1F25A34C00E1F00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44N96SVFP8;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HeFanStreamSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lsqlite3",
+					"-ObjC",
+					"-liconv",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wlj.HeFanStreamSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E8D34AD1F25A34C00E1F00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 44N96SVFP8;
+				INFOPLIST_FILE = HeFanStreamSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlj.HeFanStreamSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeFanStreamSDKDemo.app/HeFanStreamSDKDemo";
+			};
+			name = Debug;
+		};
+		6E8D34AE1F25A34C00E1F00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 44N96SVFP8;
+				INFOPLIST_FILE = HeFanStreamSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlj.HeFanStreamSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeFanStreamSDKDemo.app/HeFanStreamSDKDemo";
+			};
+			name = Release;
+		};
+		6E8D34B01F25A34C00E1F00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44N96SVFP8;
+				INFOPLIST_FILE = HeFanStreamSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlj.HeFanStreamSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeFanStreamSDKDemo;
+			};
+			name = Debug;
+		};
+		6E8D34B11F25A34C00E1F00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44N96SVFP8;
+				INFOPLIST_FILE = HeFanStreamSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlj.HeFanStreamSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeFanStreamSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8D34771F25A34B00E1F00F /* Build configuration list for PBXProject "HeFanStreamSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8D34A71F25A34C00E1F00F /* Debug */,
+				6E8D34A81F25A34C00E1F00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8D34A91F25A34C00E1F00F /* Build configuration list for PBXNativeTarget "HeFanStreamSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8D34AA1F25A34C00E1F00F /* Debug */,
+				6E8D34AB1F25A34C00E1F00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8D34AC1F25A34C00E1F00F /* Build configuration list for PBXNativeTarget "HeFanStreamSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8D34AD1F25A34C00E1F00F /* Debug */,
+				6E8D34AE1F25A34C00E1F00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8D34AF1F25A34C00E1F00F /* Build configuration list for PBXNativeTarget "HeFanStreamSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8D34B01F25A34C00E1F00F /* Debug */,
+				6E8D34B11F25A34C00E1F00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E8D34741F25A34B00E1F00F /* Project object */;
+}
