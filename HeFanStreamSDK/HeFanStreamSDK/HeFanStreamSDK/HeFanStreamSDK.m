@@ -250,6 +250,11 @@
     if (_status != kHFSSDKStatusCreateLiving) {
         return rtn;
     }
+    
+    if (self.isStreaming) {
+        [self stopLiving];
+    }
+    
     self.isAppActive = NO;
     
     [self stopCaptureSession];
@@ -274,6 +279,10 @@
 }
 
 -(BOOL)setupAndStartStreaming:(NSString*)rtmpURL {
+    if (self.isStreaming) {
+        return YES;
+    }
+    
     [self.encodingThread = [NSThread alloc] initWithTarget:self selector:@selector(encodeAndSendFrame) object:nil];
     [self.encodingThread setName:@"com.hefantv.sensear.encodeThread"];
     
